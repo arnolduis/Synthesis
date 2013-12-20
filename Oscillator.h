@@ -29,7 +29,7 @@ public:
 	inline void setMuted(bool muted) { isMuted = muted; }
 	double nextSample();
 	Oscillator() :
-		mOscillatorMode(OSCILLATOR_MODE_SQUARE),
+		mOscillatorMode(OSCILLATOR_MODE_TRIANGLE),
 		mPI(2*acos(0.0)),
 		twoPI(2 * mPI), // This line is new
 		isMuted(true),  // And this line
